@@ -21,6 +21,7 @@ pipeline {
     stage('Test') {
       steps {
         sh 'echo "Hello world"'
+        sh '/opt/oracle/tomcat/apache-maven-3.6.3/bin/mvn -v'
       }
     }
 
