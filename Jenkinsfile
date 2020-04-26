@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('Build') {
           steps {
-            sh 'echo "$Name"'
+            sh 'echo "Printing $Name"'
           }
         }
 
